@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "704043915388",
+    "firebase_url": "https://intricate-muse-192917.firebaseio.com",
+    "project_id": "intricate-muse-192917",
+    "storage_bucket": "intricate-muse-192917.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704043915388:android:3c90e8a523560523",
+        "android_client_info": {
+          "package_name": "com.rootonelabs.vicky.shodash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704043915388-hhv42iqr7u6euotvk4e4oss4kdilpj6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rootonelabs.vicky.shodash",
+            "certificate_hash": "803c0a4a42a5fc3f122c7df09076e9201f34d298"
+          }
+        },
+        {
+          "client_id": "704043915388-stbp9htklv6ups157u1e2iebbs0ro3h5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0tgT_YkcBmALgQjsYCiNi8Fbxig9xATY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704043915388-stbp9htklv6ups157u1e2iebbs0ro3h5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

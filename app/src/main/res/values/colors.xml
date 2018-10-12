@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F57C00</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="lightPrimaryColor">#FFE0B2</color>
+    <color name="textIcon">#212121</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+
+
+    <color name="color1Back">#F8708F</color>
+    <color name="color1DotB">#DA617D</color>
+    <color name="color1DotF">#FAA4B7</color>
+
+    <color name="color2Back">#4DDBC9</color>
+    <color name="color2DotB">#43B9AA</color>
+    <color name="color2DotF">#A3FAEF</color>
+
+    <color name="color3Back">#5CAAFF</color>
+    <color name="color3DotB">#4E93DD</color>
+    <color name="color3DotF">#A9D1FD</color>
+
+    <color name="color4Back">#C873F4</color>
+    <color name="color4DotB">#B976DD</color>
+    <color name="color4DotF">#E9C4FD</color>
+
+    <array name="array_dot_active">
+        <item>@color/color1DotF</item>
+        <item>@color/color2DotF</item>
+        <item>@color/color3DotF</item>
+        <item>@color/color4DotF</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/color1DotB</item>
+        <item>@color/color2DotB</item>
+        <item>@color/color3DotB</item>
+        <item>@color/color4DotB</item>
+    </array>
+</resources>
