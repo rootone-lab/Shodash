@@ -38,6 +38,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.rengwuxian.materialedittext.MaterialEditText;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,11 +53,12 @@ public class LoginActivity extends AppCompatActivity {
 
 
     // UI references.
-    private AutoCompleteTextView mEmailView;
-    private EditText mPasswordView;
+    private MaterialEditText mEmailView;
+    private MaterialEditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
     private  Button login;
+    private TextView signUpLink;
 
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mMessagesDatabaseReference;
@@ -71,11 +73,18 @@ public class LoginActivity extends AppCompatActivity {
         // Set up the login form.
 
 
-        mEmailView = (AutoCompleteTextView)findViewById(R.id.email);
-        mPasswordView = (EditText)findViewById(R.id.password);
+        mEmailView = (MaterialEditText) findViewById(R.id.email);
+        mPasswordView = (MaterialEditText) findViewById(R.id.password);
         login = (Button)findViewById(R.id.loginButton);
+        signUpLink = (TextView)findViewById(R.id.signUpLink);
 
 
+        signUpLink.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, SignUp.class));
+            }
+        });
 
         //setting firebase database
 
