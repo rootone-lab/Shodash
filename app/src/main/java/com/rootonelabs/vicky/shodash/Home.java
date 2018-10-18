@@ -86,7 +86,6 @@ public class Home extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 showData(dataSnapshot);
 
-
             }
 
             @Override
