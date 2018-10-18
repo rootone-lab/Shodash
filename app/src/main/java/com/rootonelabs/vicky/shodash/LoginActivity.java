@@ -73,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
         // Set up the login form.
 
 
-        mEmailView = (MaterialEditText) findViewById(R.id.email);
+        mEmailView = (MaterialEditText) findViewById(R.id.username);
         mPasswordView = (MaterialEditText) findViewById(R.id.password);
         login = (Button)findViewById(R.id.loginButton);
         signUpLink = (TextView)findViewById(R.id.signUpLink);
